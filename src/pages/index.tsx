@@ -19,7 +19,7 @@ const Home: NextPage = () => {
     <div className={styles.home}>
       <img src="/images/vulpo.png" alt="Submissive Cute Fox" />
       <h1>Welcome to BitBottom!</h1>
-      <h2>Your Submissive/Insecure Password Manager/Generator!</h2>
+      <h2>Your Submissive Password Generator!</h2>
       <div className={styles.passwordGenerator}>
         <input
           type="text"
