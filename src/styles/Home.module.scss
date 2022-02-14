@@ -1,6 +1,11 @@
 .home {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   img {
+    margin: 50px 0 25px 0;
     width: 450px;
   }
   .passwordGenerator {
