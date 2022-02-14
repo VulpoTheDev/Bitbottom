@@ -1,0 +1,36 @@
+.home {
+  text-align: center;
+  img {
+    width: 450px;
+  }
+  .passwordGenerator {
+    input {
+      width: 350px;
+      padding: 5px;
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      color: #333;
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      padding: 6px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 4px;
+      background-color: #333;
+      color: #fff;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
